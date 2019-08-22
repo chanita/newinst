@@ -1,0 +1,9 @@
+{%extends 'base.html'%}
+{%load humanize%}
+
+{%block sub-content %}
+    <h3>{{greeting}}</h3>
+    <h4>New promotion.</h4>
+    <p>Buy 3 for only {{best_price|intcomma}}!!</p>
+    
+{%endblock sub-content%}
